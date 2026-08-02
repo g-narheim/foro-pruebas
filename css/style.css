@@ -1255,7 +1255,7 @@ margin-top: 200px;}
 
 .recent-t1 .recent-fecha {
     display: block;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .recent-t1{
@@ -1286,7 +1286,7 @@ margin-top: 200px;}
 
 .rec-todo {
     width: 215px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .tabt-titulo{
@@ -1326,7 +1326,7 @@ margin-top: 200px;}
 
 .tabt-texto {
     margin-top: 35px;
-    font-size: 15px;
+    font-size: 13px;
     text-align: justify;
     height: 170px;
     overflow: auto;
@@ -1366,10 +1366,8 @@ margin-top: 200px;}
     display:flex;
     align-items:flex-start;
     gap:18px;
-
     margin: 0 0 15px;
     padding: 0 0 10px;
-
     border-bottom:1px solid rgba(255,255,255,.06);
 }
 
@@ -1446,13 +1444,9 @@ margin-top: 200px;}
 .noti-right{
 
     flex:1;
-
     width:auto;
-
     margin:0;
-
-    font-size:15px;
-
+    font-size:13px;
     line-height:1.7;
 }
 
@@ -2136,7 +2130,7 @@ transition-duration: 0.5s;transition-timing-function: linear;transition-delay: 0
     padding: 90px;
     text-align: justify;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 125%;
 }
 

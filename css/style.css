@@ -1534,7 +1534,7 @@ a.mainmenu[href*="/privmsg"][title*="nuevo"]:before{
 .navi2-left{
     display:flex;
     justify-content:center;
-    gap:10px;
+    gap:2px;
     width:100%;
     font-size:0;
     margin-top: 10px;

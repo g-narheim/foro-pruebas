@@ -1610,7 +1610,7 @@ body#phpbb.zoom0 .navi2{
 body#phpbb.zoom0 .navi2-left{
     margin-top:20px;
     display:flex;
-    gap:10px;
+    gap:2px;
     width:100%;
 }
 

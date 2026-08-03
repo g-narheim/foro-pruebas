@@ -2099,12 +2099,7 @@ transition-duration: 0.5s;transition-timing-function: linear;transition-delay: 0
 }
 
 .post-date {
-    background: var(--borde1-c);
-    display: flex;
-    padding: 10px;
-    text-transform: uppercase;
-    font-size: 12px;
-    align-items: center;
+    display: none;
 }
 
 .post-text {
@@ -3287,7 +3282,6 @@ body#phpbb.zoom0 #topdown{
     height: 22px;       
     line-height: 22px; 
     text-align: center;
-
     vertical-align: middle;
     transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -3553,7 +3547,6 @@ color: #ffffff;
 /* END Multiswitcher */
 
 /*Prueba*/
-
 
 .pb-feature-bar {
     width: 100%;

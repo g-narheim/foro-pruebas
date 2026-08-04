@@ -1630,19 +1630,16 @@ body#phpbb.zoom0 .navi2{
 
     width:1200px;
     height:45px;
-
     margin:0 auto;
-
     position:sticky;
     top:0;
-
     display:flex;
     justify-content:center;
     align-items:center;
-
     padding:10px 15px;
-
-    background:#000000e6;
+    background: var(--fondo1);
+    border: var(--borde1);
+    outline: var(--borde2);
 }
 
 body#phpbb.zoom0 .navi2-left{

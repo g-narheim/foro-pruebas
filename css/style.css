@@ -3785,3 +3785,17 @@ body{
     from{transform:translateX(-50%);}
     to{transform:translateX(0);}
 }
+
+
+/* Fix Toolbar */
+
+body#phpbb.zoom0 .navi2{
+    box-shadow: none !important;
+    filter: none !important;
+    backdrop-filter: none !important;
+}
+
+body#phpbb.zoom0 .navi2::before,
+body#phpbb.zoom0 .navi2::after{
+    display:none !important;
+}

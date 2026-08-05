@@ -3810,15 +3810,11 @@ body#phpbb.zoom0 .navi2::after{
 .foro-polaroids{
 
     position:absolute;
-
-    right:80px;
+    right:-300px;
     bottom:-15px;
-
     width:340px;
     height:220px;
-
     z-index:15;
-
     pointer-events:none;
 }
 

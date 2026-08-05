@@ -3803,52 +3803,85 @@ body#phpbb.zoom0 .navi2::after{
     display:none !important;
 }
 
-/* Prueba Polaroid */
+/*=====================================
+=            POLAROIDS                =
+=====================================*/
 
 .foro-polaroids{
     position:absolute;
+
     right:40px;
     bottom:20px;
+
     width:250px;
     height:180px;
+
+    z-index:1;
+
     pointer-events:none;
 }
 
 .polaroid{
 
     position:absolute;
+
     width:120px;
     height:150px;
+
     background-size:cover;
     background-position:center;
-    transition:.8s ease;
+    background-repeat:no-repeat;
+
+    border-radius:4px;
+
     box-shadow:0 10px 30px rgba(0,0,0,.45);
+
+    transform-origin:center;
+
+    will-change:transform;
+
+    transition:
+        transform .8s cubic-bezier(.22,.61,.36,1);
 }
+
+/* Primera polaroid */
 
 .p1{
 
     left:0;
     bottom:0;
+
     transform:rotate(-8deg);
+
+    /* CAMBIAR POR TU IMAGEN */
+    background-image:url("https://via.placeholder.com/120x150");
 }
+
+/* Segunda polaroid */
 
 .p2{
 
     right:0;
     top:0;
+
     transform:rotate(9deg);
+
+    /* CAMBIAR POR TU IMAGEN */
+    background-image:url("https://via.placeholder.com/120x150");
 }
+
+/* Hover */
 
 .forazo0:hover .p1{
 
     transform:
-        translateX(20px)
+        translateX(18px)
         rotate(-5deg);
 }
 
 .forazo0:hover .p2{
 
     transform:
-        translateX(35px)
+        translateX(32px)
         rotate(12deg);
 }

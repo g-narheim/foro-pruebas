@@ -3828,9 +3828,7 @@ body#phpbb.zoom0 .navi2::after{
     width:120px;
     height:150px;
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    overflow:hidden;
 
     border-radius:4px;
 
@@ -3844,42 +3842,50 @@ body#phpbb.zoom0 .navi2::after{
         transform .8s cubic-bezier(.22,.61,.36,1);
 }
 
+/* La imagen ocupa toda la polaroid */
+
+.polaroid img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+    pointer-events:none;
+}
+
 /* Primera polaroid */
 
-.p1{
+.polaroid:first-child{
 
     left:0;
     bottom:0;
 
     transform:rotate(-8deg);
-
-    /* CAMBIAR POR TU IMAGEN */
-    background-image:url("https://via.placeholder.com/120x150");
 }
 
 /* Segunda polaroid */
 
-.p2{
+.polaroid:last-child{
 
     right:0;
     top:0;
 
     transform:rotate(9deg);
-
-    /* CAMBIAR POR TU IMAGEN */
-    background-image:url("https://via.placeholder.com/120x150");
 }
 
 /* Hover */
 
-.forazo0:hover .p1{
+.forazo0:hover .polaroid:first-child{
 
     transform:
         translateX(18px)
         rotate(-5deg);
 }
 
-.forazo0:hover .p2{
+.forazo0:hover .polaroid:last-child{
 
     transform:
         translateX(32px)

@@ -658,7 +658,8 @@ text-transform: uppercase;
 
 .footer-lidefault a {
     display: flex;
-    background: var(--borde1-c);
+    background: #050505;
+    border-radius: 5px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -690,7 +691,7 @@ text-transform: uppercase;
     padding: 15px;
     overflow: auto;
     height: 100%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .groups-list a {
@@ -698,8 +699,8 @@ text-transform: uppercase;
     align-items: center;
     gap: 12px;
     padding: 20px 15px;
-    background: rgba(255, 255, 255, .02);
-    border: 1px solid rgba(255, 255, 255, .08);
+    background: rgb(8 8 8);
+    border-radius: 5px; 
     color: var(--textobase);
     text-decoration: none;
     text-transform: uppercase;

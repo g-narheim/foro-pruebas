@@ -4004,19 +4004,19 @@ body#phpbb.zoom0 .navi2::after{
 
 /*=====================================*/
 
-.lugar-fuji{
+.lugar1{
 
     grid-column:1;
     grid-row:1 / span 2;
 }
 
-.lugar-tokio{
+.lugar2{
 
     grid-column:2;
     grid-row:1;
 }
 
-.lugar-beijing{
+.lugar3{
 
     grid-column:2;
     grid-row:2;
@@ -4157,7 +4157,7 @@ body#phpbb.zoom0 .navi2::after{
     z-index:20;
 }
 
-.lugar-fuji .for2-1{
+.lugar1 .for2-1{
 
     width:48%;
 }

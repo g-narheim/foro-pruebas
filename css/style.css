@@ -3894,3 +3894,29 @@ body#phpbb.zoom0 .navi2::after{
         translateY(2px)
         rotate(10deg);
 }
+
+/*=====================================
+=       LUGARES (SIN CABECERA)        =
+=====================================*/
+
+.forazo0:has(.for11-2 a[href*="/f12-"]),
+.forazo0:has(.for11-2 a[href*="/f13-"]),
+.forazo0:has(.for11-2 a[href*="/f14-"]){
+
+    margin-top:0;
+}
+
+.forazo0:has(.for11-2 a[href*="/f12-"]) .forazo1,
+.forazo0:has(.for11-2 a[href*="/f13-"]) .forazo1,
+.forazo0:has(.for11-2 a[href*="/f14-"]) .forazo1{
+
+    display:none;
+}
+
+.forazo0:has(.for11-2 a[href*="/f12-"]) .forazo2,
+.forazo0:has(.for11-2 a[href*="/f13-"]) .forazo2,
+.forazo0:has(.for11-2 a[href*="/f14-"]) .forazo2{
+
+    padding:0;
+    min-height:260px;
+}

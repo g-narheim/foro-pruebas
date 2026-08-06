@@ -3815,7 +3815,7 @@ body#phpbb.zoom0 .navi2::after{
     width:340px;
     height:220px;
     z-index:15;
-    pointer-events:none;
+    pointer-events:auto;
 }
 
 /*------------------*/
@@ -3834,7 +3834,7 @@ body#phpbb.zoom0 .navi2::after{
     will-change:transform;
 
     transition:
-        transform .7s cubic-bezier(.22,.61,.36,1);
+        transform .6s ease;
 }
 
 /*------------------*/
@@ -3883,22 +3883,18 @@ body#phpbb.zoom0 .navi2::after{
         HOVER
 ========================*/
 
-.forazo0:hover .p1{
+.foro-polaroids:hover .p1{
 
     transform:
-
-        translateX(-18px)
-        translateY(-4px)
-
-        rotate(-16deg);
+        translateX(6px)
+        translateY(-2px)
+        rotate(-10deg);
 }
 
-.forazo0:hover .p2{
+.foro-polaroids:hover .p2{
 
     transform:
-
-        translateX(32px)
-        translateY(6px)
-
-        rotate(13deg);
+        translateX(8px)
+        translateY(2px)
+        rotate(10deg);
 }

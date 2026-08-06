@@ -4084,35 +4084,107 @@ body#phpbb.zoom0 .navi2::after{
 =          CONTENIDO                 =
 =====================================*/
 
+/* Ocultamos el título normal */
+
+.lugar .for11-2{
+
+    display:none;
+}
+
+/* Nombre grande sobre la imagen */
+
+.lugar .foro-img0::before{
+
+    content:attr(data-titulo);
+
+    position:absolute;
+
+    left:38px;
+    top:34px;
+
+    z-index:15;
+
+    font:700 44px var(--font2);
+
+    color:#fff;
+
+    letter-spacing:-1px;
+
+    text-shadow:0 2px 15px rgba(0,0,0,.45);
+
+    pointer-events:none;
+
+    transition:.45s;
+}
+
+/* Línea decorativa */
+
+.lugar .foro-img0::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:38px;
+    top:98px;
+
+    width:120px;
+    height:2px;
+
+    background:var(--color1);
+
+    opacity:.8;
+
+    z-index:15;
+
+    transition:.45s;
+}
+
+/* Texto */
+
 .lugar .for2-1{
 
     position:absolute;
 
-    left:35px;
+    left:38px;
 
-    bottom:35px;
+    bottom:38px;
 
-    width:60%;
+    width:58%;
 
-    z-index:10;
+    z-index:20;
 }
 
 .lugar-fuji .for2-1{
 
-    width:50%;
+    width:48%;
 }
+
+/* Último mensaje */
 
 .lugar .for2-3{
 
     position:absolute;
 
-    right:30px;
+    right:35px;
 
-    bottom:30px;
+    bottom:35px;
+
+    width:185px;
 
     margin:0;
 
-    width:190px;
+    z-index:20;
+}
 
-    z-index:10;
+/* Hover */
+
+.lugar:hover .foro-img0::before{
+
+    transform:translateX(8px);
+}
+
+.lugar:hover .foro-img0::after{
+
+    width:150px;
 }

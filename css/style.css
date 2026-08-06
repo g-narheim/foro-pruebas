@@ -3841,11 +3841,9 @@ body#phpbb.zoom0 .navi2::after{
 
 .polaroid img{
 
-    width:100%;
+    width:115%;
     height:100%;
-
     object-fit:contain;
-
     display:block;
 }
 

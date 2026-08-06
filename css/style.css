@@ -3977,30 +3977,30 @@ body#phpbb.zoom0 .navi2::after{
 }
 
 /*=====================================
-=          LUGARES GRID               =
+=           LUGARES GRID              =
 =====================================*/
 
 .lugares-grid{
 
     display:grid;
 
-    grid-template-columns:1.25fr 1fr;
+    grid-template-columns:1.35fr .85fr;
 
-    grid-template-rows:220px 220px;
+    grid-template-rows:260px 260px;
 
-    gap:20px;
+    gap:24px;
 
-    margin:60px 0;
+    margin:40px 0 70px;
 }
 
-/*-----------------------------------*/
+/*=====================================*/
 
 .lugar{
 
     margin:0 !important;
 }
 
-/*-----------------------------------*/
+/*=====================================*/
 
 .lugar-fuji{
 
@@ -4008,18 +4008,111 @@ body#phpbb.zoom0 .navi2::after{
     grid-row:1 / span 2;
 }
 
-/*-----------------------------------*/
-
 .lugar-tokio{
 
     grid-column:2;
     grid-row:1;
 }
 
-/*-----------------------------------*/
-
 .lugar-beijing{
 
     grid-column:2;
     grid-row:2;
+}
+
+/*=====================================
+=      QUITAR CABECERA INTERNA        =
+=====================================*/
+
+.lugar .forazo1{
+
+    display:none;
+}
+
+/*=====================================
+=         CUERPO DEL FORO            =
+=====================================*/
+
+.lugar .forazo2{
+
+    padding:0;
+
+    min-height:100%;
+
+    height:100%;
+}
+
+/*=====================================
+=         IMAGEN DE FONDO            =
+=====================================*/
+
+.lugar .foro-img0 img{
+
+    opacity:.45;
+
+    filter:none;
+
+    transition:transform .8s ease;
+}
+
+.lugar:hover .foro-img0 img{
+
+    transform:scale(1.05);
+}
+
+/*=====================================
+=         DEGRADADO OSCURO           =
+=====================================*/
+
+.lugar .foro-img0::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        to top,
+        rgba(10,10,10,.88) 0%,
+        rgba(10,10,10,.35) 45%,
+        rgba(10,10,10,.05) 100%
+    );
+}
+
+/*=====================================
+=          CONTENIDO                 =
+=====================================*/
+
+.lugar .for2-1{
+
+    position:absolute;
+
+    left:35px;
+
+    bottom:35px;
+
+    width:60%;
+
+    z-index:10;
+}
+
+.lugar-fuji .for2-1{
+
+    width:50%;
+}
+
+.lugar .for2-3{
+
+    position:absolute;
+
+    right:30px;
+
+    bottom:30px;
+
+    margin:0;
+
+    width:190px;
+
+    z-index:10;
 }

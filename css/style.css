@@ -3983,13 +3983,9 @@ body#phpbb.zoom0 .navi2::after{
 .lugares-grid{
 
     display:grid;
-
-    grid-template-columns:58% 42%;
-
-    grid-template-rows:215px 215px;
-
+    grid-template-columns: 48% 42%;
+    grid-template-rows: 350px 348px;
     gap:20px;
-
     margin:35px 0 55px;
 }
 

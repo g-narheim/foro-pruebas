@@ -244,7 +244,7 @@ dl.codebox code {
     background:var(--fondo1);
     padding:10px 15px;
     margin-right:15px;
-    font-family:'Pirata One';
+    font-family: var(--fuente2);
     font-size:18px;
     line-height:100%;
 }

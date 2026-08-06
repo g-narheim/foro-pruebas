@@ -3984,13 +3984,13 @@ body#phpbb.zoom0 .navi2::after{
 
     display:grid;
 
-    grid-template-columns:1.35fr .85fr;
+    grid-template-columns:58% 42%;
 
-    grid-template-rows:260px 260px;
+    grid-template-rows:215px 215px;
 
-    gap:24px;
+    gap:20px;
 
-    margin:40px 0 70px;
+    margin:35px 0 55px;
 }
 
 /*=====================================*/
@@ -3998,6 +3998,8 @@ body#phpbb.zoom0 .navi2::after{
 .lugar{
 
     margin:0 !important;
+
+    height:100%;
 }
 
 /*=====================================*/

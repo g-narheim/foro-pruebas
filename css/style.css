@@ -3883,7 +3883,7 @@ body#phpbb.zoom0 .navi2::after{
         HOVER
 ========================*/
 
-.foro-polaroids:hover .p1{
+.p1:hover{
 
     transform:
         translateX(6px)
@@ -3891,7 +3891,7 @@ body#phpbb.zoom0 .navi2::after{
         rotate(-10deg);
 }
 
-.foro-polaroids:hover .p2{
+.p2:hover{
 
     transform:
         translateX(8px)

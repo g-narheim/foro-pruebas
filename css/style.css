@@ -3869,11 +3869,9 @@ body#phpbb.zoom0 .navi2::after{
 .p2{
 
     right:35px;
-    top:10px;
-
+    top:20px;
     transform:
         rotate(9deg);
-
     z-index:2;
 }
 

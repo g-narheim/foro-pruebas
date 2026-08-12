@@ -2,11 +2,11 @@
 /*** SKIN BY MADEINSEVILLA, 2023 ***/
 
 :root {
---imagen-fondo: url(https://nar-heim.github.io/foro-assets/images/Fondo-1.png);  
+--imagen-fondo: url(https://g-narheim/foro-pruebas/images/Fondo-1.png);  
 --img-staff1: url(https://2img.net/i.imgur.com/UtEHJTj.png);  
 --img-staff2: url(https://2img.net/i.imgur.com/VyuzBfw.png);  
 --img-staff3: url(https://2img.net/i.imgur.com/P344AUe.png);  
---img-footer: url(https://nar-heim.github.io/foro-assets/images/Footer-1.png);
+--img-footer: url(https://g-narheim/foro-pruebas/images/Footer-1.png);
   
     --fuente1: Roboto;
     --fuente2: Pirata One;
@@ -47,7 +47,7 @@ a:hover {text-decoration:none!important;}
 
 @font-face {
     font-family: 'SlacksideOne';
-    src: url('https://nar-heim.github.io/foro-assets/fonts/SlacksideOne-Regular.ttf') format('truetype');
+    src: url('https://g-narheim/foro-pruebas/fonts/SlacksideOne-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -55,7 +55,7 @@ a:hover {text-decoration:none!important;}
 
 @font-face {
     font-family: 'Cormorant Garamond';
-    src: url('https://nar-heim.github.io/foro-assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+    src: url('https://g-narheim/foro-pruebas/fonts/CormorantGaramond-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;

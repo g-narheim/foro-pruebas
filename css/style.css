@@ -3687,8 +3687,8 @@ color:var(--grupcolor);
     --color1:#a56c77;
     --color2:#a56c77;
     --fuente2: 'SlacksideOne';
-  --imagen-fondo:url("https://nar-heim.github.io/foro-assets/images/Fondo-2.png");
-  --img-footer:url("https://nar-heim.github.io/foro-assets/images/Footer-2.png");
+  --imagen-fondo:url("https://g-narheim.github.io/foro-pruebas/images/Fondo-2.png");
+  --img-footer:url("https://g-narheim.github.io/foro-pruebas/images/Footer-2.png");
 }
 
 /*** BOTON TEMA ALTERNATIVO ***/
@@ -3767,7 +3767,7 @@ body{
     left:0;
     width:200%;
     height:100%;
-    background:url(https://nar-heim.github.io/foro-assets/images/clouds.png) repeat-x center;
+    background:url(https://g-narheim.github.io/foro-pruebas/images/clouds.png) repeat-x center;
     opacity:.13;
 }
 

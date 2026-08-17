@@ -938,6 +938,7 @@ text-transform: uppercase;
     display:block;
     opacity:.20;
     filter:grayscale(1);
+    margin-top: -35px;
 }
 
 .for2-1,
